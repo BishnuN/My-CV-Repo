@@ -2,7 +2,7 @@ import time
 
 from selenium.webdriver.common.by import By
 
-from Locate.Locater import UserReg
+from Locators.Locater import UserReg
 
 class UserPage:
     def __init__(self, driver):
@@ -16,7 +16,7 @@ class UserPage:
 
     def signin_click(self):
         self.signIn_locator().click()
-        print("Clicked the sign-in button.")
+
 
     def EntryEmail_locator(self):
         emailfirst = self.driver.find_element(By.ID, self.location.emailFirst_id)

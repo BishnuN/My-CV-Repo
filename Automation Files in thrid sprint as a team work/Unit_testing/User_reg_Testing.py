@@ -4,7 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from Pages.UserReg_page import UserPage
+from Pages.User_reg_page import UserPage
 
 class MyTestCase(unittest.TestCase):
     def setUp(self):
